@@ -133,10 +133,6 @@ class API (object):
         in package ``amazonproduct.processors`` for values.
         """
 
-        if any([access_key_id, secret_access_key, associate_tag]):
-            warnings.warn('Please use a config file!', DeprecationWarning,
-                stacklevel=2)
-
         self.access_key = access_key_id
         self.secret_key = secret_access_key
         self.associate_tag = associate_tag
