@@ -54,6 +54,7 @@ HOSTS = {
     'de': 'ecs.amazonaws.de',
     'es': 'webservices.amazon.es',
     'fr': 'ecs.amazonaws.fr',
+    'in': 'webservices.amazon.in',
     'it': 'webservices.amazon.it',
     'jp': 'ecs.amazonaws.jp',
     'uk': 'ecs.amazonaws.co.uk',
